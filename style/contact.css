@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(157deg, rgba(107,112,246,1) 0%, rgba(107,112,246,1) 51%, rgba(255,255,255,1) 100%);
+}
+.image{
+    width: 100%;
+    flex: 1;
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    max-width: 100%;
+    height: auto;
+    width: 60%;
+    margin: auto;
+}
+
+.navbar{
+    position: fixed;
+    padding:  25px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 2;
+    display: flex;
+    background: transparent;
+}
+
+.navbar a{
+  color: white;
+  margin-left: 65px;
+    font-size: 20px;
+    margin-top: 60px;
+    font-weight: 600;
+}
+.navbar .nav-links ul{
+    display: flex;
+    list-style: none;
+    text-align: center; 
+}
+.navbar .nav-links ul li {
+    display: inline;
+    margin-right: 50px;
+}
+.navbar a:hover{
+    border-bottom: 3px solid #5E17EB;
+}
+
+.cadre{
+    width: 500px;
+    height: auto;
+    border: 1px solid #082BCB; 
+    background: rgb(107,112,246);
+    border-radius: 20px ;
+    padding: 5px;
+}
+.form-container {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+    padding: 20px;
+    z-index: 1;
+}
+h1 { 
+    color: #fff;
+    font-family: Montserrat Alternates;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 160px; 
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+}
+input {
+    height: 40px;
+    width: 340px;
+    padding: 5px;
+    margin-top: 9px; 
+    border: 1px solid #2599FB;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.message input{
+    height: 100px;
+    width: 340px;
+    padding: 5px;
+    margin-top: 9px; 
+    border: 1px solid #2599FB;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+button {
+    background: #082BCB;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 345px;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-family: Montserrat Alternates;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2544cddc;
+  
+}
+footer{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
